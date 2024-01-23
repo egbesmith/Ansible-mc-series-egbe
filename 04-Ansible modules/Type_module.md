@@ -18,11 +18,11 @@
 
 ## **3. File Module**
 - Used to create files and directories \
- a) Create a file named file25 \
+ a) Create a file named file26 \
   **$ ansible group1 -m file -a "path=file26.txt state=touch"**
 
  b) Create a directory file25 \
-  **$ ansible db -m file -a "path=/home/ansible/file26 state=directory mode=777 owner=root group=root" --become**
+  **$ ansible db -m file -a "path=/home/ansible/file25 state=directory mode=777 owner=root group=root" --become**
 
 - If state=absent, the file or directory will be deleted
 
